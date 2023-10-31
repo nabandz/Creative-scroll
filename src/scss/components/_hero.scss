@@ -1,0 +1,19 @@
+.hero {
+  height: 100vh;
+  &__title {
+    margin: 0;
+    position: absolute;
+    font-family: outfit-c;
+    font-size: calc(var(--index) * 8);
+    width: min-content;
+    bottom: 12vh;
+    line-height: 0.9;
+  }
+  &__img {
+    z-index: -1;
+    position: absolute;
+    width: calc(var(--index) * 36);
+    left: 37vw;
+    top: 8vh;
+  }
+}

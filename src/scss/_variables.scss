@@ -1,9 +1,13 @@
 :root {
-  --font-family: "Raleway", sans-serif;
-  --content-width: 1160px;
-  --container-offset: 20px;
+  --font-family: "raleway-c", sans-serif;
+  --content-width: 100%;
+  --container-offset: 10vw;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
 
-  --light-color: #fafafa;
+  --light-color: #f4efec;
   --dark-color: #0a0a0a;
+  --grey-color: #cdc6c3;
+
+  --index: calc(1vw + 1vh);
+  --gap: calc(var(--index) * 10);
 }
